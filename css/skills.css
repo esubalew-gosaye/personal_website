@@ -1,0 +1,90 @@
+ * {
+	box-sizing: border-box;
+	font-family: 'century gothic',san serief;
+  background-color:#6600ff;
+
+}
+button{
+  padding: 7px 17px;
+  background-color:red;
+  border-radius: 4px;
+}
+body {
+  background: #2E282A;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #fff;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #db3a34;
+}
+
+.bar {
+  width: 90%;
+  height: 35px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1,
+.my-skills {
+  width: 80%;
+  margin: 10px auto 25px;
+}
+
+.bar-inner {
+  width: 0;
+  height: 35px;
+  line-height: 35px;
+  background: #db3a34;
+  border-radius: 5px 0 0 5px;
+}
+.bar-percent {
+  position: absolute;
+  right: 40%;
+  top: 5px;
+  font-size: 18px;
+  color: #f9004d;
+  font-weight: bold;
+  background-color: transparent;
+
+}
+.bar .html{
+	width: 75%;
+	background-color:#db3a34 ;
+}
+.bar .css{
+	width: 65%;
+	background-color:#db3a34 ;
+}
+.bar .py{
+	width: 80%;
+	background-color:#00b300;
+}
+.bar .js{
+	width: 85%;
+	background-color: #525252;
+}
+.bar .java{
+	width: 52%;
+	background-color:#990099 ;
+}
+.bar .cpp{
+	width: 55%;
+	background-color:#5a68a5 ;
+}
+.bar .bootstrap{
+	width: 43%;
+	background-color:#cccc00 ;
+}
